@@ -10,7 +10,7 @@ def summon_captain_planet (arr)
   end
 end
 
-def long_planeteer_call(arr)
+def long_planeteer_calls(arr)
   arr.any? do |x|
     x.length>4
   end
